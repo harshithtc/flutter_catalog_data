@@ -1,1154 +1,134 @@
 {
-  "clothing": [
+  "item": [
     {
       "id": 1,
-      "brand": "Adidas",
-      "name": "Adidas Shirt 1",
-      "category": "Shirt",
-      "price": 650,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Blue",
-        "Grey"
-      ],
-      "fabric": "Polyester",
-      "fit": "Slim",
-      "stock": 4,
+      "brand": "Samsung",
+      "model": "Galaxy S24 Ultra",
+      "price": 129999,
+      "storage": "512GB",
+      "ram": "12GB",
+      "camera": "200MP + 12MP + 10MP + 10MP",
+      "battery": "5000mAh",
+      "rating": 4.8,
       "isAvailable": true,
-      "rating": 3.6,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
+      "imageUrl": "https://i.pinimg.com/736x/24/22/32/24223258deb2711a6cfb6ffe2ba3b5e9.jpg"
     },
     {
       "id": 2,
-      "brand": "Zara",
-      "name": "Zara Jeans 2",
-      "category": "Jeans",
-      "price": 800,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Red",
-        "Black"
-      ],
-      "fabric": "Denim",
-      "fit": "Oversized",
-      "stock": 7,
+      "brand": "Apple",
+      "model": "iPhone 15 Pro Max",
+      "price": 159900,
+      "storage": "256GB",
+      "ram": "8GB",
+      "camera": "48MP + 12MP + 12MP",
+      "battery": "4422mAh",
+      "rating": 4.9,
       "isAvailable": true,
-      "rating": 3.7,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
+      "imageUrl": "https://i.pinimg.com/736x/e9/a9/b7/e9a9b72ec8478f1023f0e7bfcfdf6d4d.jpg"
     },
     {
       "id": 3,
-      "brand": "Levi's",
-      "name": "Levi's Jacket 3",
-      "category": "Jacket",
-      "price": 950,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Green",
-        "White"
-      ],
-      "fabric": "Linen",
-      "fit": "Regular",
-      "stock": 10,
+      "brand": "OnePlus",
+      "model": "OnePlus 12",
+      "price": 64999,
+      "storage": "256GB",
+      "ram": "16GB",
+      "camera": "50MP + 48MP + 64MP",
+      "battery": "5400mAh",
+      "rating": 4.6,
       "isAvailable": true,
-      "rating": 3.8,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
+      "imageUrl": "https://i.pinimg.com/736x/f0/9a/47/f09a476edc1531d64de8b10feeab34ff.jpg"
     },
     {
       "id": 4,
-      "brand": "Puma",
-      "name": "Puma Dress 4",
-      "category": "Dress",
-      "price": 1100,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Yellow",
-        "Black"
-      ],
-      "fabric": "Wool",
-      "fit": "Slim",
-      "stock": 13,
-      "isAvailable": true,
-      "rating": 3.9,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
+      "brand": "Xiaomi",
+      "model": "Xiaomi 14 Ultra",
+      "price": 69999,
+      "storage": "512GB",
+      "ram": "16GB",
+      "camera": "50MP Quad Leica",
+      "battery": "5300mAh",
+      "rating": 4.5,
+      "isAvailable": false,
+      "imageUrl": "https://i.pinimg.com/736x/21/13/05/2113050ca76ee70f4b523bfd971c3557.jpg"
     },
     {
       "id": 5,
-      "brand": "H&M",
-      "name": "H&M Shoes 5",
-      "category": "Shoes",
-      "price": 1250,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Pink",
-        "White"
-      ],
-      "fabric": "Silk",
-      "fit": "Oversized",
-      "stock": 16,
-      "isAvailable": false,
-      "rating": 4.0,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
+      "brand": "Realme",
+      "model": "Realme GT 6",
+      "price": 37999,
+      "storage": "256GB",
+      "ram": "12GB",
+      "camera": "50MP + 8MP",
+      "battery": "5500mAh",
+      "rating": 4.4,
+      "isAvailable": true,
+      "imageUrl": "https://i.pinimg.com/736x/5d/46/fb/5d46fbbf1d5a8f5eab755950c659fe8e.jpg"
     },
     {
       "id": 6,
-      "brand": "Reebok",
-      "name": "Reebok Hoodie 6",
-      "category": "Hoodie",
-      "price": 1400,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Black",
-        "White"
-      ],
-      "fabric": "Mesh",
-      "fit": "Regular",
-      "stock": 19,
-      "isAvailable": true,
-      "rating": 4.1,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
+      "brand": "Vivo",
+      "model": "Vivo X100 Pro",
+      "price": 89999,
+      "storage": "512GB",
+      "ram": "16GB",
+      "camera": "50MP + 50MP + 64MP",
+      "battery": "5400mAh",
+      "rating": 4.7,
+      "isAvailable": false,
+      "imageUrl": "https://i.pinimg.com/736x/c1/79/40/c17940b3ae08177bc405c241af03d218.jpg"
     },
     {
       "id": 7,
-      "brand": "Under Armour",
-      "name": "Under Armour Shorts 7",
-      "category": "Shorts",
-      "price": 1550,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Blue",
-        "Grey"
-      ],
-      "fabric": "Cotton",
-      "fit": "Slim",
-      "stock": 2,
+      "brand": "Google",
+      "model": "Pixel 8 Pro",
+      "price": 106999,
+      "storage": "256GB",
+      "ram": "12GB",
+      "camera": "50MP + 48MP + 48MP",
+      "battery": "5050mAh",
+      "rating": 4.8,
       "isAvailable": true,
-      "rating": 4.2,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
+      "imageUrl": "https://i.pinimg.com/1200x/7f/94/6a/7f946ad8484f77e08529409b430a9afb.jpg"
     },
     {
       "id": 8,
-      "brand": "Gucci",
-      "name": "Gucci T-Shirt 8",
-      "category": "T-Shirt",
-      "price": 1700,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Red",
-        "Black"
-      ],
-      "fabric": "Polyester",
-      "fit": "Oversized",
-      "stock": 5,
-      "isAvailable": true,
+      "brand": "Motorola",
+      "model": "Edge 50 Ultra",
+      "price": 59999,
+      "storage": "512GB",
+      "ram": "12GB",
+      "camera": "50MP + 50MP + 64MP",
+      "battery": "4500mAh",
       "rating": 4.3,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
+      "isAvailable": true,
+      "imageUrl": "https://i.pinimg.com/736x/73/38/f0/7338f0bae4aece7bc03a289287a61fe1.jpg"
     },
     {
       "id": 9,
-      "brand": "Prada",
-      "name": "Prada Shirt 9",
-      "category": "Shirt",
-      "price": 1850,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Green",
-        "White"
-      ],
-      "fabric": "Denim",
-      "fit": "Regular",
-      "stock": 8,
-      "isAvailable": true,
-      "rating": 4.4,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
+      "brand": "Nothing",
+      "model": "Phone (2)",
+      "price": 44999,
+      "storage": "256GB",
+      "ram": "12GB",
+      "camera": "50MP + 50MP",
+      "battery": "4700mAh",
+      "rating": 4.2,
+      "isAvailable": false,
+      "imageUrl": "https://i.pinimg.com/1200x/54/1e/9f/541e9f79a9b05b921d80653f0c5b2be5.jpg"
     },
     {
       "id": 10,
-      "brand": "Nike",
-      "name": "Nike Jeans 10",
-      "category": "Jeans",
-      "price": 2000,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Yellow",
-        "Black"
-      ],
-      "fabric": "Linen",
-      "fit": "Slim",
-      "stock": 11,
-      "isAvailable": false,
+      "brand": "iQOO",
+      "model": "iQOO Neo 9 Pro",
+      "price": 37999,
+      "storage": "256GB",
+      "ram": "12GB",
+      "camera": "50MP + 8MP",
+      "battery": "5160mAh",
       "rating": 4.5,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
-    },
-    {
-      "id": 11,
-      "brand": "Adidas",
-      "name": "Adidas Jacket 11",
-      "category": "Jacket",
-      "price": 2150,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Pink",
-        "White"
-      ],
-      "fabric": "Wool",
-      "fit": "Oversized",
-      "stock": 14,
       "isAvailable": true,
-      "rating": 4.6,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
-    },
-    {
-      "id": 12,
-      "brand": "Zara",
-      "name": "Zara Dress 12",
-      "category": "Dress",
-      "price": 2300,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Black",
-        "White"
-      ],
-      "fabric": "Silk",
-      "fit": "Regular",
-      "stock": 17,
-      "isAvailable": true,
-      "rating": 4.7,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
-    },
-    {
-      "id": 13,
-      "brand": "Levi's",
-      "name": "Levi's Shoes 13",
-      "category": "Shoes",
-      "price": 2450,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Blue",
-        "Grey"
-      ],
-      "fabric": "Mesh",
-      "fit": "Slim",
-      "stock": 20,
-      "isAvailable": true,
-      "rating": 4.8,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
-    },
-    {
-      "id": 14,
-      "brand": "Puma",
-      "name": "Puma Hoodie 14",
-      "category": "Hoodie",
-      "price": 2600,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Red",
-        "Black"
-      ],
-      "fabric": "Cotton",
-      "fit": "Oversized",
-      "stock": 3,
-      "isAvailable": true,
-      "rating": 4.9,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
-    },
-    {
-      "id": 15,
-      "brand": "H&M",
-      "name": "H&M Shorts 15",
-      "category": "Shorts",
-      "price": 2750,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Green",
-        "White"
-      ],
-      "fabric": "Polyester",
-      "fit": "Regular",
-      "stock": 6,
-      "isAvailable": false,
-      "rating": 3.5,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
-    },
-    {
-      "id": 16,
-      "brand": "Reebok",
-      "name": "Reebok T-Shirt 16",
-      "category": "T-Shirt",
-      "price": 2900,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Yellow",
-        "Black"
-      ],
-      "fabric": "Denim",
-      "fit": "Slim",
-      "stock": 9,
-      "isAvailable": true,
-      "rating": 3.6,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
-    },
-    {
-      "id": 17,
-      "brand": "Under Armour",
-      "name": "Under Armour Shirt 17",
-      "category": "Shirt",
-      "price": 3050,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Pink",
-        "White"
-      ],
-      "fabric": "Linen",
-      "fit": "Oversized",
-      "stock": 12,
-      "isAvailable": true,
-      "rating": 3.7,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
-    },
-    {
-      "id": 18,
-      "brand": "Gucci",
-      "name": "Gucci Jeans 18",
-      "category": "Jeans",
-      "price": 3200,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Black",
-        "White"
-      ],
-      "fabric": "Wool",
-      "fit": "Regular",
-      "stock": 15,
-      "isAvailable": true,
-      "rating": 3.8,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
-    },
-    {
-      "id": 19,
-      "brand": "Prada",
-      "name": "Prada Jacket 19",
-      "category": "Jacket",
-      "price": 3350,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Blue",
-        "Grey"
-      ],
-      "fabric": "Silk",
-      "fit": "Slim",
-      "stock": 18,
-      "isAvailable": true,
-      "rating": 3.9,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
-    },
-    {
-      "id": 20,
-      "brand": "Nike",
-      "name": "Nike Dress 20",
-      "category": "Dress",
-      "price": 3500,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Red",
-        "Black"
-      ],
-      "fabric": "Mesh",
-      "fit": "Oversized",
-      "stock": 1,
-      "isAvailable": false,
-      "rating": 4.0,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
-    },
-    {
-      "id": 21,
-      "brand": "Adidas",
-      "name": "Adidas Shoes 21",
-      "category": "Shoes",
-      "price": 3650,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Green",
-        "White"
-      ],
-      "fabric": "Cotton",
-      "fit": "Regular",
-      "stock": 4,
-      "isAvailable": true,
-      "rating": 4.1,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
-    },
-    {
-      "id": 22,
-      "brand": "Zara",
-      "name": "Zara Hoodie 22",
-      "category": "Hoodie",
-      "price": 3800,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Yellow",
-        "Black"
-      ],
-      "fabric": "Polyester",
-      "fit": "Slim",
-      "stock": 7,
-      "isAvailable": true,
-      "rating": 4.2,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
-    },
-    {
-      "id": 23,
-      "brand": "Levi's",
-      "name": "Levi's Shorts 23",
-      "category": "Shorts",
-      "price": 3950,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Pink",
-        "White"
-      ],
-      "fabric": "Denim",
-      "fit": "Oversized",
-      "stock": 10,
-      "isAvailable": true,
-      "rating": 4.3,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
-    },
-    {
-      "id": 24,
-      "brand": "Puma",
-      "name": "Puma T-Shirt 24",
-      "category": "T-Shirt",
-      "price": 4100,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Black",
-        "White"
-      ],
-      "fabric": "Linen",
-      "fit": "Regular",
-      "stock": 13,
-      "isAvailable": true,
-      "rating": 4.4,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
-    },
-    {
-      "id": 25,
-      "brand": "H&M",
-      "name": "H&M Shirt 25",
-      "category": "Shirt",
-      "price": 4250,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Blue",
-        "Grey"
-      ],
-      "fabric": "Wool",
-      "fit": "Slim",
-      "stock": 16,
-      "isAvailable": false,
-      "rating": 4.5,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
-    },
-    {
-      "id": 26,
-      "brand": "Reebok",
-      "name": "Reebok Jeans 26",
-      "category": "Jeans",
-      "price": 4400,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Red",
-        "Black"
-      ],
-      "fabric": "Silk",
-      "fit": "Oversized",
-      "stock": 19,
-      "isAvailable": true,
-      "rating": 4.6,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
-    },
-    {
-      "id": 27,
-      "brand": "Under Armour",
-      "name": "Under Armour Jacket 27",
-      "category": "Jacket",
-      "price": 4550,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Green",
-        "White"
-      ],
-      "fabric": "Mesh",
-      "fit": "Regular",
-      "stock": 2,
-      "isAvailable": true,
-      "rating": 4.7,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
-    },
-    {
-      "id": 28,
-      "brand": "Gucci",
-      "name": "Gucci Dress 28",
-      "category": "Dress",
-      "price": 4700,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Yellow",
-        "Black"
-      ],
-      "fabric": "Cotton",
-      "fit": "Slim",
-      "stock": 5,
-      "isAvailable": true,
-      "rating": 4.8,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
-    },
-    {
-      "id": 29,
-      "brand": "Prada",
-      "name": "Prada Shoes 29",
-      "category": "Shoes",
-      "price": 4850,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Pink",
-        "White"
-      ],
-      "fabric": "Polyester",
-      "fit": "Oversized",
-      "stock": 8,
-      "isAvailable": true,
-      "rating": 4.9,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
-    },
-    {
-      "id": 30,
-      "brand": "Nike",
-      "name": "Nike Hoodie 30",
-      "category": "Hoodie",
-      "price": 5000,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Black",
-        "White"
-      ],
-      "fabric": "Denim",
-      "fit": "Regular",
-      "stock": 11,
-      "isAvailable": false,
-      "rating": 3.5,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
-    },
-    {
-      "id": 31,
-      "brand": "Adidas",
-      "name": "Adidas Shorts 31",
-      "category": "Shorts",
-      "price": 5150,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Blue",
-        "Grey"
-      ],
-      "fabric": "Linen",
-      "fit": "Slim",
-      "stock": 14,
-      "isAvailable": true,
-      "rating": 3.6,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
-    },
-    {
-      "id": 32,
-      "brand": "Zara",
-      "name": "Zara T-Shirt 32",
-      "category": "T-Shirt",
-      "price": 5300,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Red",
-        "Black"
-      ],
-      "fabric": "Wool",
-      "fit": "Oversized",
-      "stock": 17,
-      "isAvailable": true,
-      "rating": 3.7,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
-    },
-    {
-      "id": 33,
-      "brand": "Levi's",
-      "name": "Levi's Shirt 33",
-      "category": "Shirt",
-      "price": 5450,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Green",
-        "White"
-      ],
-      "fabric": "Silk",
-      "fit": "Regular",
-      "stock": 20,
-      "isAvailable": true,
-      "rating": 3.8,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
-    },
-    {
-      "id": 34,
-      "brand": "Puma",
-      "name": "Puma Jeans 34",
-      "category": "Jeans",
-      "price": 5600,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Yellow",
-        "Black"
-      ],
-      "fabric": "Mesh",
-      "fit": "Slim",
-      "stock": 3,
-      "isAvailable": true,
-      "rating": 3.9,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
-    },
-    {
-      "id": 35,
-      "brand": "H&M",
-      "name": "H&M Jacket 35",
-      "category": "Jacket",
-      "price": 5750,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Pink",
-        "White"
-      ],
-      "fabric": "Cotton",
-      "fit": "Oversized",
-      "stock": 6,
-      "isAvailable": false,
-      "rating": 4.0,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
-    },
-    {
-      "id": 36,
-      "brand": "Reebok",
-      "name": "Reebok Dress 36",
-      "category": "Dress",
-      "price": 5900,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Black",
-        "White"
-      ],
-      "fabric": "Polyester",
-      "fit": "Regular",
-      "stock": 9,
-      "isAvailable": true,
-      "rating": 4.1,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
-    },
-    {
-      "id": 37,
-      "brand": "Under Armour",
-      "name": "Under Armour Shoes 37",
-      "category": "Shoes",
-      "price": 6050,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Blue",
-        "Grey"
-      ],
-      "fabric": "Denim",
-      "fit": "Slim",
-      "stock": 12,
-      "isAvailable": true,
-      "rating": 4.2,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
-    },
-    {
-      "id": 38,
-      "brand": "Gucci",
-      "name": "Gucci Hoodie 38",
-      "category": "Hoodie",
-      "price": 6200,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Red",
-        "Black"
-      ],
-      "fabric": "Linen",
-      "fit": "Oversized",
-      "stock": 15,
-      "isAvailable": true,
-      "rating": 4.3,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
-    },
-    {
-      "id": 39,
-      "brand": "Prada",
-      "name": "Prada Shorts 39",
-      "category": "Shorts",
-      "price": 6350,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Green",
-        "White"
-      ],
-      "fabric": "Wool",
-      "fit": "Regular",
-      "stock": 18,
-      "isAvailable": true,
-      "rating": 4.4,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
-    },
-    {
-      "id": 40,
-      "brand": "Nike",
-      "name": "Nike T-Shirt 40",
-      "category": "T-Shirt",
-      "price": 6500,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Yellow",
-        "Black"
-      ],
-      "fabric": "Silk",
-      "fit": "Slim",
-      "stock": 1,
-      "isAvailable": false,
-      "rating": 4.5,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
-    },
-    {
-      "id": 41,
-      "brand": "Adidas",
-      "name": "Adidas Shirt 41",
-      "category": "Shirt",
-      "price": 6650,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Pink",
-        "White"
-      ],
-      "fabric": "Mesh",
-      "fit": "Oversized",
-      "stock": 4,
-      "isAvailable": true,
-      "rating": 4.6,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
-    },
-    {
-      "id": 42,
-      "brand": "Zara",
-      "name": "Zara Jeans 42",
-      "category": "Jeans",
-      "price": 6800,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Black",
-        "White"
-      ],
-      "fabric": "Cotton",
-      "fit": "Regular",
-      "stock": 7,
-      "isAvailable": true,
-      "rating": 4.7,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
-    },
-    {
-      "id": 43,
-      "brand": "Levi's",
-      "name": "Levi's Jacket 43",
-      "category": "Jacket",
-      "price": 6950,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Blue",
-        "Grey"
-      ],
-      "fabric": "Polyester",
-      "fit": "Slim",
-      "stock": 10,
-      "isAvailable": true,
-      "rating": 4.8,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
-    },
-    {
-      "id": 44,
-      "brand": "Puma",
-      "name": "Puma Dress 44",
-      "category": "Dress",
-      "price": 7100,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Red",
-        "Black"
-      ],
-      "fabric": "Denim",
-      "fit": "Oversized",
-      "stock": 13,
-      "isAvailable": true,
-      "rating": 4.9,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
-    },
-    {
-      "id": 45,
-      "brand": "H&M",
-      "name": "H&M Shoes 45",
-      "category": "Shoes",
-      "price": 7250,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Green",
-        "White"
-      ],
-      "fabric": "Linen",
-      "fit": "Regular",
-      "stock": 16,
-      "isAvailable": false,
-      "rating": 3.5,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
-    },
-    {
-      "id": 46,
-      "brand": "Reebok",
-      "name": "Reebok Hoodie 46",
-      "category": "Hoodie",
-      "price": 7400,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Yellow",
-        "Black"
-      ],
-      "fabric": "Wool",
-      "fit": "Slim",
-      "stock": 19,
-      "isAvailable": true,
-      "rating": 3.6,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
-    },
-    {
-      "id": 47,
-      "brand": "Under Armour",
-      "name": "Under Armour Shorts 47",
-      "category": "Shorts",
-      "price": 7550,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Pink",
-        "White"
-      ],
-      "fabric": "Silk",
-      "fit": "Oversized",
-      "stock": 2,
-      "isAvailable": true,
-      "rating": 3.7,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
-    },
-    {
-      "id": 48,
-      "brand": "Gucci",
-      "name": "Gucci T-Shirt 48",
-      "category": "T-Shirt",
-      "price": 7700,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Black",
-        "White"
-      ],
-      "fabric": "Mesh",
-      "fit": "Regular",
-      "stock": 5,
-      "isAvailable": true,
-      "rating": 3.8,
-      "imageUrl": "https://images.unsplash.com/photo-1520975918318-7c13b6b18c9b?w=600&q=80"
-    },
-    {
-      "id": 49,
-      "brand": "Prada",
-      "name": "Prada Shirt 49",
-      "category": "Shirt",
-      "price": 7850,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Blue",
-        "Grey"
-      ],
-      "fabric": "Cotton",
-      "fit": "Slim",
-      "stock": 8,
-      "isAvailable": true,
-      "rating": 3.9,
-      "imageUrl": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
-    },
-    {
-      "id": 50,
-      "brand": "Nike",
-      "name": "Nike Jeans 50",
-      "category": "Jeans",
-      "price": 8000,
-      "size": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Red",
-        "Black"
-      ],
-      "fabric": "Polyester",
-      "fit": "Oversized",
-      "stock": 11,
-      "isAvailable": false,
-      "rating": 4.0,
-      "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80"
+      "imageUrl": "https://i.pinimg.com/736x/d2/a0/b0/d2a0b057ac3fc9b9f640323f7eb80455.jpg"
     }
   ]
 }
