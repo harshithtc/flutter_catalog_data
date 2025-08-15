@@ -71,4 +71,64 @@
       "model": "Vivo X100 Pro",
       "price": 1079.99,
       "storage": "512GB",
-      "
+      "ram": "16GB",
+      "camera": "50MP + 50MP + 64MP",
+      "battery": "5400mAh",
+      "rating": 4.7,
+      "isAvailable": false,
+      "imageUrl": "https://i.pinimg.com/736x/c1/79/40/c17940b3ae08177bc405c241af03d218.jpg"
+    },
+    {
+      "id": 7,
+      "brand": "Google",
+      "model": "Pixel 8 Pro",
+      "price": 1283.99,
+      "storage": "256GB",
+      "ram": "12GB",
+      "camera": "50MP + 48MP + 48MP",
+      "battery": "5050mAh",
+      "rating": 4.8,
+      "isAvailable": true,
+      "imageUrl": "https://i.pinimg.com/1200x/7f/94/6a/7f946ad8484f77e08529409b430a9afb.jpg"
+    },
+    {
+      "id": 8,
+      "brand": "Motorola",
+      "model": "Edge 50 Ultra",
+      "price": 719.99,
+      "storage": "512GB",
+      "ram": "12GB",
+      "camera": "50MP + 50MP + 64MP",
+      "battery": "4500mAh",
+      "rating": 4.3,
+      "isAvailable": true,
+      "imageUrl": "https://i.pinimg.com/736x/73/38/f0/7338f0bae4aece7bc03a289287a61fe1.jpg"
+    },
+    {
+      "id": 9,
+      "brand": "Nothing",
+      "model": "Phone (2)",
+      "price": 539.99,
+      "storage": "256GB",
+      "ram": "12GB",
+      "camera": "50MP + 50MP",
+      "battery": "4700mAh",
+      "rating": 4.2,
+      "isAvailable": false,
+      "imageUrl": "https://i.pinimg.com/1200x/54/1e/9f/541e9f79a9b05b921d80653f0c5b2be5.jpg"
+    },
+    {
+      "id": 10,
+      "brand": "iQOO",
+      "model": "iQOO Neo 9 Pro",
+      "price": 455.99,
+      "storage": "256GB",
+      "ram": "12GB",
+      "camera": "50MP + 8MP",
+      "battery": "5160mAh",
+      "rating": 4.5,
+      "isAvailable": true,
+      "imageUrl": "https://i.pinimg.com/736x/d2/a0/b0/d2a0b057ac3fc9b9f640323f7eb80455.jpg"
+    }
+  ]
+}
